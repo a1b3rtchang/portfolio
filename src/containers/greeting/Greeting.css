@@ -11,6 +11,8 @@
   margin-top: 2rem;
 }
 
+
+
 .greeting-main {
   display: flex;
 }
@@ -43,9 +45,16 @@
   line-height: 40px;
 }
 
+.greeting-image-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .greeting-image-div > img {
   max-width: 100%;
   height: auto;
+  margin-left: 50px;
 }
 
 .wave-emoji {
@@ -88,6 +97,9 @@
   .greeting-text-p {
     font-size: 20px;
   }
+  /* .greeting-image-div {
+    margin-left: 15%;
+  } */
 }
 @media (max-width: 768px) {
   .button-greeting-div {
